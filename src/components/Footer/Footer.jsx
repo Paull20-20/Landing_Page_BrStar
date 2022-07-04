@@ -14,18 +14,18 @@ const Footer = () => {
                <li>
                   <a
                      target="_blank"
-                     href="https://www.linkedin.com/in/thomas-luizon/"
+                     href="https://www.linkedin.com/in/tiago-oliveira-49a2a6205/"
                   >
                      <i className="bi bi-linkedin"></i>
                   </a>
                </li>
                <li>
-                  <a target="_blank" href="https://github.com/thomasluizon">
+                  <a target="_blank" href="https://github.com/Paull20-20">
                      <i className="bi bi-github"></i>
                   </a>
                </li>
                <li>
-                  <a target="_blank" href="https://wa.me/5511942670844">
+                  <a target="_blank" href="https://wa.me/5584996553029">
                      <i className="bi bi-whatsapp"></i>
                   </a>
                </li>

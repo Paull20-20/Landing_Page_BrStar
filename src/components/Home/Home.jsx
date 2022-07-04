@@ -8,17 +8,13 @@ const Home = () => {
 		<section id="home">
 			<div className="container">
 				<div className="home__intro">
-					<p data-aos="slide-from-top" className="home__intro__greetings">
-						{t('hello')} 👋
-					</p>
+				
 					<h2 data-aos="slide-from-top" className="home__intro__name">
-						{t('my_name')}
+						{t('CRM BrStar')}
 					</h2>
-					<p
-						data-aos="slide-from-top"
-						className="home__intro__presentation"
-					>
-						{t('presentation')}
+				
+					<p data-aos="slide-from-top" className="home__intro__greetings">
+						{t('Um novo CRM inovador quer trará tudo que tiver de mais moderno juntamente de uma acessibilidade digital surpreendente!')} 👋
 					</p>
 				</div>
 				<div className="home__profile" data-aos="slide-to-left">

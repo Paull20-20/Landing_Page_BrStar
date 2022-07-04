@@ -21,12 +21,12 @@ const About = () => {
 		<section id="about">
 			<div className="container">
 				<div data-aos="slide-from-top" className="about__desc">
-					<h3>{t('who_am_i')}</h3>
-					<h2>{t('about_me')}</h2>
+					<h3>{t('Quais os diferencias do BrStar ?')}</h3>
+					
 					<p>
-						<span>{t('desc_1', { age: getAge() })}</span>
-						<span>{t('desc_2')}</span>
-						<span>{t('desc_3')}</span>
+						<span>{t('Interface atualizada e fácil de manipular')}</span>
+						<span>{t('100% criado com tecnologias atuais, podendo unir diversas ideias sistêmicas em um único lugar, para assim servir para qualquer tipo de negócio.')}</span>
+						<span>{t('Acessibilidade de ponta implantada, como por exemplo, navegação via comandos de voz e login com reconhecimento facial.')}</span>
 					</p>
 				</div>
 				<div data-aos="slide-to-left" className="about__img">
