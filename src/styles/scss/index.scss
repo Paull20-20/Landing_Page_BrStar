@@ -10,8 +10,8 @@
 :root {
 	--text-color: #eaeaea;
 	--bg-color: #1d1f20;
-	--main-color: #cb23f5;
-	--active-color: #f900e8;
+	--main-color: #06afbd;
+	--active-color: #01ccdd;
 	--transition-duration: 0.3s;
 	--container-width: 1200px;
 	--animate-duration: 1.5s;
@@ -29,9 +29,9 @@ html {
 body {
 	background: linear-gradient(
 		90deg,
-		rgba(2, 0, 36, 1) 0%,
-		rgba(58, 10, 70, 1) 35%,
-		rgba(47, 1, 45, 1) 100%
+		#07034d 0%,
+		#2c1a80 35%,
+		#01ccdd 100%
 	);
 	overflow-x: hidden;
 }
@@ -60,7 +60,7 @@ section {
 
 * {
 	scrollbar-width: auto;
-	scrollbar-color: var(--main-color) #251225;
+	scrollbar-color: var(--main-color) #f7f5f7;
 }
 
 *::-webkit-scrollbar {
@@ -68,7 +68,7 @@ section {
 }
 
 *::-webkit-scrollbar-track {
-	background: rgba(0, 0, 0, 0.832);
+	background: #000000d4;
 }
 
 *::-webkit-scrollbar-thumb {

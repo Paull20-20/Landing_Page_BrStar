@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useState, useEffect, useRef } from 'react';
 import Lang from './Lang';
 import MobileDrawer from './MobileDrawer';
-import iconImage from '../../../assets/imgs/brstarmenu.png';
+import iconImage from '../../../assets/imgs/logo.png';
 
 const Header = props => {
 	const { t } = useTranslation();
@@ -64,7 +64,7 @@ const Header = props => {
 			<header className="header" data-aos="slide-down">
 				<div className="container">
 					
-					<h1 className="header__title">CRM-BrStar</h1>
+					<h1 className="header__title"><img src="./assets/imgs/logo.png" className='imgDimension'/></h1>
 					<nav className="header__nav">
 						<ul className="header__nav__menu">
 							<li>

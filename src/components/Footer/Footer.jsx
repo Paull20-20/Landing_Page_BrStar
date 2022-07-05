@@ -14,20 +14,20 @@ const Footer = () => {
                <li>
                   <a
                      target="_blank"
-                     href="https://www.linkedin.com/in/tiago-oliveira-49a2a6205/"
-                  >
-                     <i className="bi bi-linkedin"></i>
+                     href="https://www.linkedin.com/in/tiago-oliveira-49a2a6205/">
+                     <img class='in' src="./assets/imgs/in.png" alt="png" className='linkedin'/>
                   </a>
                </li>
                <li>
                   <a target="_blank" href="https://github.com/Paull20-20">
-                     <i className="bi bi-github"></i>
+                     <img class='git' src="./assets/imgs/git.png" alt="png" className='github'/>
                   </a>
                </li>
                <li>
                   <a target="_blank" href="https://wa.me/5584996553029">
-                     <i className="bi bi-whatsapp"></i>
+                  <img class='whats' src="./assets/imgs/whats.png" alt="png" className='whatsapp'/>
                   </a>
+                  
                </li>
             </ul>
          </div>

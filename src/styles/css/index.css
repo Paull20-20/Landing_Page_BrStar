@@ -111,6 +111,31 @@ section {
   display: block;
 }
 
+/* up */
+
+.imgDimension{
+  width:54px;
+  height:62.25px;
+}
+
+img.in{
+  width:40px;
+  height:40px;
+}
+
+img.git{
+  width:40px;
+  height:40px;
+}
+
+img.whats{
+  width:40px;
+  height:40px;
+}
+
+/* up */
+
+
 body {
   line-height: 1;
   margin: 0;
@@ -166,7 +191,7 @@ a {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .header .container {
-  --padding-y-header: 2.5rem;
+  --padding-y-header: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -648,7 +673,7 @@ a {
 #contact .container .contact__form input,
 #contact .container .contact__form textarea {
   background: none;
-  border: 1px solid #919090;
+  border: 1px solid #07034d;
   border-radius: 1rem;
   padding: 1rem 2rem;
   width: 100%;
@@ -708,7 +733,7 @@ a {
   }
 }
 .footer {
-  background-color: black;
+  background-color: #2c1a80;
   min-height: 20vh;
   width: 100%;
   margin-top: 3rem;
@@ -752,8 +777,8 @@ a {
 :root {
   --text-color: #eaeaea;
   --bg-color: #1d1f20;
-  --main-color: #cb23f5;
-  --active-color: #f900e8;
+  --main-color: #06afbd;
+  --active-color: #01ccdd;
   --transition-duration: 0.3s;
   --container-width: 1200px;
   --animate-duration: 1.5s;
@@ -769,7 +794,7 @@ html {
 }
 
 body {
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(58, 10, 70) 35%, rgb(47, 1, 45) 100%);
+  background: linear-gradient(90deg, #07034d 0%, #2c1a80 35%, #01ccdd 100%);
   overflow-x: hidden;
 }
 
@@ -796,7 +821,7 @@ section {
 
 * {
   scrollbar-width: auto;
-  scrollbar-color: var(--main-color) #251225;
+  scrollbar-color: var(--main-color) #f7f5f7;
 }
 
 *::-webkit-scrollbar {
