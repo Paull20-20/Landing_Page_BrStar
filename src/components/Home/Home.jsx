@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import profileImage from '../../../assets/imgs/profile-image.png';
+import profileImage from '../../../assets/imgs/macm01.png';
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -14,7 +14,7 @@ const Home = () => {
 					</h2>
 				
 					<p data-aos="slide-from-top" className="home__intro__greetings">
-						{t('Um novo CRM inovador quer trará tudo que tiver de mais moderno juntamente de uma acessibilidade digital surpreendente!')} 👋
+						{t('Um novo CRM inovador quer trará tudo que tiver de mais moderno juntamente de uma acessibilidade digital surpreendente!')} ❁
 					</p>
 				</div>
 				<div className="home__profile" data-aos="slide-to-left">
