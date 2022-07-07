@@ -374,9 +374,12 @@ a {
   transition: var(--animate-duration);
   z-index: -1;
 }
+
+/* up */
 #home .container .home__profile img {
-  border-radius: 50%;
+  border-radius: 0%;
 }
+/* up */
 
 [data-aos=slide-to-left] {
   opacity: 0;
@@ -465,10 +468,13 @@ a {
 #about .container .about__img {
   transition: var(--animate-duration);
 }
+
+/* up */
 #about .container .about__img img {
-  border-radius: 50%;
+  border-radius: 3%;
   max-width: 480px;
 }
+/* up */
 
 @media screen and (max-width: 900px) {
   #about .container {
@@ -723,8 +729,10 @@ a {
     font-size: 0.8rem;
   }
 }
+
+/* up */
 .footer {
-  background-color: #2c1a80;
+  background-color: #000000;
   min-height: 20vh;
   width: 100%;
   margin-top: 3rem;
@@ -733,6 +741,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+/* up */
+
+/* up */
 .footer .container {
   display: flex;
   justify-content: space-between;
@@ -751,7 +762,7 @@ a {
   transition: var(--transition-duration) color ease-in-out;
 }
 .footer .container .footer_socials li:hover {
-  transform: translateX(2px);
+  transform: translateX(10px);
 }
 .footer .container .footer_socials li:hover i {
   color: var(--main-color);
@@ -765,15 +776,20 @@ a {
     flex-direction: column;
   }
 }
+
+
+/* up */
 :root {
   --text-color: #eaeaea;
   --bg-color: #1d1f20;
   --main-color: #06afbd;
+  /* --main-color: #07034d;  */
   --active-color: #01ccdd;
   --transition-duration: 0.3s;
   --container-width: 1200px;
   --animate-duration: 1.5s;
 }
+/* up */
 
 * {
   color: var(--text-color);
@@ -784,10 +800,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* up */
 body {
-  background: linear-gradient(90deg, #07034d 0%, #2c1a80 35%, #01ccdd 100%);
+  background: linear-gradient(90deg,  #07034d 0%, #2c1a80 35%,  #01ccdd 100% );
   overflow-x: hidden;
 }
+/* up */
 
 @media screen and (max-width: 900px) {
   body.scroll {
@@ -819,9 +837,11 @@ section {
   width: 14px;
 }
 
+/* up */
 *::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.832);
+  background: linear-gradient(90deg, rgba(7,3,77,1) 0%, rgba(44,26,128,1) 35%, rgba(6,175,189,1) 100%);
 }
+/* up */
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
