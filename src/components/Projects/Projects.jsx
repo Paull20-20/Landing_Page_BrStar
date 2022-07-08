@@ -10,7 +10,7 @@ const Projects = () => {
 		<section id="projects">
 			<div className="container">
 				<h2 className="projects__title" data-aos="slide-to-left">
-					{t('Projeto em desenvolvimento')}
+					{t('projects__title')}
 				</h2>
 				<div className="projects__container">
 					<Project

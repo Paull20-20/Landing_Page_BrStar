@@ -20,15 +20,18 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="container">
+				
 				<div data-aos="slide-from-top" className="about__desc">
-					<h3>{t('Quais os diferencias do BrStar ?')}</h3>
+					<h3>{t('about__desc')}</h3>
 					
 					<p>
-						<span>{t('Interface atualizada e fácil de manipular')}</span>
-						<span>{t('100% criado com tecnologias atuais, podendo unir diversas ideias sistêmicas em um único lugar, para assim servir para qualquer tipo de negócio.')}</span>
-						<span>{t('Acessibilidade de ponta implantada, como por exemplo, navegação via comandos de voz e login com reconhecimento facial.')}</span>
+						<span>{t('desc_1')}</span>
+						<span>{t('desc_2')}</span>
+						<span>{t('desc_3')}</span>
 					</p>
+
 				</div>
+
 				<div data-aos="slide-to-left" className="about__img">
 					<img src={codingGif} alt={t('gif')} />
 				</div>

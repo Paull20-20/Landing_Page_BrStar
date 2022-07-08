@@ -11,6 +11,8 @@ import 'flag-icon-css/css/flag-icons.min.css';
 
 import translationEN from '../assets/locales/en/translation.json';
 import translationPT from '../assets/locales/pt/translation.json';
+import MyComponent from './components/BackgroundParticles/BackgroundParticles'
+
 
 const resources = {
    en: {
@@ -35,7 +37,9 @@ i18n
    });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+   
    <React.StrictMode>
+      <MyComponent/>
       <App />
    </React.StrictMode>
 );

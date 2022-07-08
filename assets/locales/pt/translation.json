@@ -1,18 +1,32 @@
-{
+{	
 	"nav-home": "Início",
 	"nav-about": "Sobre",
 	"nav-projects": "Projetos",
 	"nav-contact": "Contato",
 	"copyright": "Todos os direitos reservados.",
+
+	"home__intro__greetings":"Um novo CRM inovador que trará tudo que tiver de mais moderno juntamente de uma acessibilidade digital surpreendente! ❁",
+	"about__desc":"Quais os diferenciais do BrStar?",
+	"desc_1": "Interface atualizada e fácil de manipular",
+	"desc_2": "100% criado com tecnologias atuais, podendo unir diversas ideias sistêmicas em um único lugar, para assim servir para qualquer tipo de negócio.",
+	"desc_3": "Acessibilidade de ponta implantada, como por exemplo, navegação via comandos de voz e login com reconhecimento facial.",
+
+	"projects__title": "Projeto em desenvolvimento",
+
+	"contact__desc": "Caso deseje entrar em contato conosco para qualquer tipo de assunto, preencha o formulário abaixo!",
+
+	"Brasil":"Brasil",
+
+
+
+
 	"profile_desc": "Desenho ilustrativo que representa o dono deste portfólio.",
 	"hello": "Olá!",
 	"my_name": "Meu nome é Thomas,",
 	"presentation": "sou um desenvolvedor Front-End.",
 	"who_am_i": "Quem sou eu?",
-	"about_me": "Sobre mim",
-	"desc_1": "Meu nome é Thomas Luizon, tenho {{age}} anos e sou um desenvolvedor Front-End em busca de colocar minhas habilidades técnicas em prática. Sou apaixonado por programação, adoro estudar e aprender novas tecnologias.",
-	"desc_2": "Desenvolvo aplicações Web utilizando Next.js, React e Styled components e tenho conhecimento em Tailwind CSS, Sass, e o básico porém necessário HTML, CSS e JavaScript.",
-	"desc_3": "Sempre procuro atingir a melhor experiência para o usuário, deixando a aplicação flúida e seguindo os padrões de clean code para facilitar a manutenção.",
+	
+
 	"gif": "Gif animado de um menino programando.",
 	"my_projects": "Meus projetos",
 	"demo": "Demonstração",

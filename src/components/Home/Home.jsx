@@ -14,8 +14,9 @@ const Home = () => {
 					</h2>
 				
 					<p data-aos="slide-from-top" className="home__intro__greetings">
-						{t('Um novo CRM inovador quer trará tudo que tiver de mais moderno juntamente de uma acessibilidade digital surpreendente!')} ❁
+						{t('home__intro__greetings')} 
 					</p>
+
 				</div>
 				<div className="home__profile" data-aos="slide-to-left">
 					<img src={profileImage} alt={t('profile_desc')} />
