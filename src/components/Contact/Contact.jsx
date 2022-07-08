@@ -13,7 +13,7 @@ const Contact = () => {
 					{t('contact')}
 				</h2>
 				<p className="contact__desc" data-aos="slide-to-left">
-					{t('Caso deseje entrar em contato conosco para qualquer tipo de assunto, preencha o formulário abaixo!')}
+					{t('contact__desc')}
 				</p>
 				<div className="contact__form-wrapper">
 					<Info />

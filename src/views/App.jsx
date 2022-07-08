@@ -7,6 +7,8 @@ import About from '../components/About/About';
 import Footer from '../components/Footer/Footer';
 import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
+import MyComponent from '../components/BackgroundParticles/BackgroundParticles'
+
 
 const App = () => {
 	const languages = [
@@ -28,14 +30,20 @@ const App = () => {
 
 	return (
 		<>
+		
 			<Header languages={languages} />
 			<main>
+			<MyComponent/>
 				<Home />
+
 				<About />
 				<Projects />
 				<Contact />
+			
 			</main>
+			
 			<Footer />
+			
 		</>
 	);
 };

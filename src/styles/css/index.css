@@ -794,7 +794,11 @@ a {
 * {
   color: var(--text-color);
 }
-
+canvas{
+  position: absolute !important; 
+  height: 100vh !important;
+  z-index: -1;
+}
 html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
