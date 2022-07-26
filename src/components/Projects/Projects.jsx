@@ -6,6 +6,10 @@ const Projects = () => {
 	const { t } = useTranslation();
 	const [showMore, setShowMore] = useState(false);
 
+	function Demo(){
+		alert("\nOps, opção ainda não habilitada, mas em breve estará disponível!")
+	}
+
 	return (
 		<section id="projects">
 			<div className="container">
@@ -14,13 +18,13 @@ const Projects = () => {
 				</h2>
 				<div className="projects__container">
 					<Project
-						repo="https://github.com/thomasluizon/url-shortening-api-react"
-						demo="https://url-shortening-api-react.vercel.app/"
-						desc={t('CRM criado para inovar o mercado de software em desenvolvimento!')}
-						img ="https://github.com/thomasluizon/url-shortening-api-react/raw/main/src/assets/Screenshots/Screenshot_2-mobile.png"
+						repo="https://github.com/Paull20-20/Landing_Page_BrStar"
+						demo="https://github.com/Paull20-20/Landing_Page_BrStar"
+						desc={t('CRM criado para inovar o mercado de software em desenvolvimento!')}						
+						img ="./assets/imgs/crm.png"
 					/>
 				
-
+			
 
 				</div>
 
