@@ -16,38 +16,12 @@ const Projects = () => {
 					<Project
 						repo="https://github.com/thomasluizon/url-shortening-api-react"
 						demo="https://url-shortening-api-react.vercel.app/"
-						desc={t('linkshortener_desc')}
-						img="https://github.com/thomasluizon/url-shortening-api-react/raw/main/src/assets/Screenshots/Screenshot_2-mobile.png"
+						desc={t('CRM criado para inovar o mercado de software em desenvolvimento!')}
+						img ="https://github.com/thomasluizon/url-shortening-api-react/raw/main/src/assets/Screenshots/Screenshot_2-mobile.png"
 					/>
-					<Project
-						repo="https://github.com/thomasluizon/next-crud"
-						demo="https://next-crud-thomas.vercel.app/"
-						desc={t('nextcrud_desc')}
-						img="https://github.com/thomasluizon/next-crud/raw/main/src/Screenshot.png"
-					/>
+				
 
-					{showMore && (
-						<>
-							<Project
-								repo="https://github.com/thomasluizon/react-calculator"
-								demo="https://react-calculator-thomas.vercel.app/"
-								desc={t('calculator_desc')}
-								img="https://github.com/thomasluizon/react-calculator/raw/main/src/assets/Screenshot.png"
-							/>
-							<Project
-								repo="https://github.com/thomasluizon/react-notes-app"
-								demo="https://react-notes-app-thomas.vercel.app/"
-								desc={t('notes_desc')}
-								img="https://github.com/thomasluizon/react-notes-app/raw/main/Screenshot.png"
-							/>
-							<Project
-								repo="https://github.com/thomasluizon/ip-address-tracker-react"
-								demo="https://ip-address-tracker-react-thomas.vercel.app/"
-								desc={t('ipaddress_desc')}
-								img="https://github.com/thomasluizon/ip-address-tracker-react/blob/main/src/assets/ScreenshotMobile.png?raw=true"
-							/>
-						</>
-					)}
+
 				</div>
 
 				<button
